@@ -1,0 +1,63 @@
+.bpmn-icon-task.Excel {
+    color: black !important;
+    background:url('Microsoft-Office-Excel-icon.png') #ffffff scroll no-repeat;
+    background-position: center;
+    background-attachment: local;
+    margin:0pt auto;
+}
+.bpmn-icon-data-object.Word {
+    color: black !important;
+    background:url('Word-2-icon.png') #ffffff scroll no-repeat;
+    background-position: center;
+    background-attachment: local;
+    margin:0pt auto;
+}
+.bpmn-icon-task.Powerpoint {
+    color: black !important;
+    background:url('Microsoft-Office-PowerPoint-icon.png') #ffffff scroll no-repeat;
+    background-position: center;
+    background-attachment: local;
+    margin:0pt auto;
+}
+.bpmn-icon-data-object.Base {
+    color: black !important;
+    background:url('OpenOffice-Base-icon.png') #ffffff scroll no-repeat;
+    background-position: center;
+    background-attachment: local;
+    margin:0pt auto;
+}
+.bpmn-icon-data-object.Calc {
+    color: black !important;
+    background:url('OpenOffice-Calc-icon.png') #ffffff scroll no-repeat;
+    background-position: center;
+    background-attachment: local;
+    margin:0pt auto;
+}
+.bpmn-icon-data-object.Draw {
+    color: black !important;
+    background:url('OpenOffice-Draw-icon.png') #ffffff scroll no-repeat;
+    background-position: center;
+    background-attachment: local;
+    margin:0pt auto;
+}
+.bpmn-icon-data-object.Impress {
+    color: black !important;
+    background:url('OpenOffice-Impress-icon.png') #ffffff scroll no-repeat;
+    background-position: center;
+    background-attachment: local;
+    margin:0pt auto;
+}
+.bpmn-icon-data-object.Math {
+    color: black !important;
+    background:url('OpenOffice-Math-icon.png') #ffffff scroll no-repeat;
+    background-position: center;
+    background-attachment: local;
+    margin:0pt auto;
+}
+.bpmn-icon-data-object.Writer {
+    color: black !important;
+    background:url('OpenOffice-Writer-icon.png') #ffffff scroll no-repeat;
+    background-position: center;
+    background-attachment: local;
+    margin:0pt auto;
+}

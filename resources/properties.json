@@ -1,0 +1,34 @@
+{
+  "name": "AppID",
+  "prefix": "app",
+  "uri": "http://appID",
+  "xml": {
+    "tagAlias": "lowerCase"
+  },
+  "associations": [],
+  "types": [
+    {
+      "name": "AdditionalNode",
+      "extends": [
+        "bpmn:BaseElement"
+      ],
+      "properties": [
+        {
+			"name": "ApplicationID",
+			"isAttr": true,
+			"type": "Integer"
+        },
+		{
+			"name": "AssistanceSystemType",
+			"isAttr": true,
+			"type": "String"
+		},
+		{
+			"name": "TaskType",
+			"isAttr": true,
+			"type": "String"
+		}
+      ]
+    }
+  ]
+}

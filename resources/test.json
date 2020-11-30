@@ -1,0 +1,81 @@
+{
+  "name": "QualityAssurance",
+  "uri": "http://some-company/schema/bpmn/test",
+  "prefix": "test",
+  "xml": {
+    "tagAlias": "lowerCase"
+  },
+  "types": [
+    {
+      "name": "Excel",
+      "extends": [
+        "bpmn:DataObjectReference"
+      ],
+      "properties": [
+        {
+          "name": "Name",
+          "isAttr": true,
+          "type": "String"
+        },
+		{
+          "name": "systemType",
+          "isAttr": true,
+          "type": "String"
+        },
+		{
+          "name": "logo",
+          "isAttr": true,
+          "type": "String"
+        }
+      ]
+    },
+    {
+      "name": "Word",
+      "extends": [
+        "bpmn:DataObjectReference"
+      ],
+      "properties": [
+        {
+          "name": "Name2",
+          "isAttr": true,
+          "type": "String"
+        },
+		{
+          "name": "SystemType2",
+          "isAttr": true,
+          "type": "String"
+        },
+		{
+          "name": "Logo2",
+          "isAttr": true,
+          "type": "String"
+        }
+      ]
+    },
+	{
+      "name": "Powerpoint",
+      "extends": [
+        "bpmn:DataObjectReference"
+      ],
+      "properties": [
+        {
+          "name": "Name3",
+          "isAttr": true,
+          "type": "String"
+        },
+		{
+          "name": "SystemType3",
+          "isAttr": true,
+          "type": "String"
+        },
+		{
+          "name": "Logo3",
+          "isAttr": true,
+          "type": "String"
+        }
+      ]
+    }
+  ],
+  "emumerations": [],
+  "associations": []
+}

@@ -1,0 +1,85 @@
+ {
+"types": [
+		{
+			"name": "Excel",
+			"type": "bpmn:Task",
+			"logo": "Microsoft-Office-Excel-icon.png",
+			"titlePalette": "Create Excel-Object",
+			"titlePad": "Append Excel-Object",
+			"AssistanceSystemType": "generic-spreadsheet-application",
+			"ApplicationID": 1
+		},
+		{
+			"name": "Word",
+			"type": "bpmn:DataObjectReference",
+			"logo": "Word-2-icon.png",
+			"titlePalette": "Create Word-Object",
+			"titlePad": "Append Word-Object",
+			"AssistanceSystemType": "generic-text-processor",
+			"ApplicationID": 2
+		},
+		{
+			"name": "Powerpoint",
+			"type": "bpmn:Task",
+			"logo": "Microsoft-Office-PowerPoint-icon.png",
+			"titlePalette": "Create Powerpoint-Object",
+			"titlePad": "Append Powerpoint-Object",
+			"AssistanceSystemType": "generic-presentation-application",
+			"ApplicationID": 3
+		},
+		{
+			"name": "Base",
+			"type": "bpmn:DataObjectReference",
+			"logo": "OpenOffice-Base-icon.png",
+			"titlePalette": "Create OpenOfficeBase-Object",
+			"titlePad": "Append OpenOfficeBase-Object",
+			"AssistanceSystemType": "generic-database-application",
+			"ApplicationID": 11
+		},
+		{
+			"name": "Calc",
+			"type": "bpmn:DataObjectReference",
+			"logo": "OpenOffice-Calc-icon.png",
+			"titlePalette": "Create OpenOfficeCalc-Object",
+			"titlePad": "Append OpenOffice-Calc-Object",
+			"AssistanceSystemType": "generic-spreadsheet-application",
+			"ApplicationID": 12
+		},
+		{
+			"name": "Draw",
+			"type": "bpmn:DataObjectReference",
+			"logo": "OpenOffice-Draw-icon.png",
+			"titlePalette": "Create OpenOfficeDraw-Object",
+			"titlePad": "Append OpenOfficeDraw-Object",
+			"AssistanceSystemType": "generic-draw-application",
+			"ApplicationID": 13
+		},
+		{
+			"name": "Impress",
+			"type": "bpmn:DataObjectReference",
+			"logo": "OpenOffice-Impress-icon.png",
+			"titlePalette": "Create OpenOfficeImpress-Object",
+			"titlePad": "Append OpenOfficeImpress-Object",
+			"AssistanceSystemType": "generic-presentation-application",
+			"ApplicationID": 14
+		},
+		{
+			"name": "Math",
+			"type": "bpmn:DataObjectReference",
+			"logo": "OpenOffice-Math-icon.png",
+			"titlePalette": "Create OpenOfficeMath-Object",
+			"titlePad": "Append OpenOfficeMath-Object",
+			"AssistanceSystemType": "generic-math-application",
+			"ApplicationID": 15
+		},
+		{
+			"name": "Writer",
+			"type": "bpmn:DataObjectReference",
+			"logo": "OpenOffice-Writer-icon.png",
+			"titlePalette": "Create OpenOfficeWriter-Object",
+			"titlePad": "Append OpenOfficeWriter-Object",
+			"AssistanceSystemType": "generic-text-processor",
+			"ApplicationID": 16
+		}
+	]
+}

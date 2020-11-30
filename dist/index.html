@@ -1,0 +1,164 @@
+ <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="diagram-js.css" />
+
+  <link rel="stylesheet" href="comments.css" />
+
+  <link rel="stylesheet" href="style.css" />
+  
+<!--  <link rel="stylesheet" href="https://unpkg.com/bpmn-js@3.2.2/dist/assets/diagram-js.css"> -->
+  <link rel="stylesheet" href="https://unpkg.com/bpmn-js@3.2.2/dist/assets/bpmn-font/css/bpmn.css">
+  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  
+  <link rel="stylesheet" href="custom.css" />
+
+  <style type="text/css">
+    html, body {
+      height: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+    #canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    #canvas > div {
+      height: 100%;
+    }
+
+    .header {
+      position: fixed;
+      right: 10px;
+      top: 10px;
+
+      border: solid 1px #999;
+      background: #EEE;
+      border-radius: 5px;
+      z-index: 100;
+    }
+
+    .header h1 {
+      margin: 10px;
+      padding: 0;
+    }
+
+    .toolbar {
+      position: fixed;
+      left: 10px;
+      bottom: 10px;
+    }
+
+    .toolbar .entry {
+      background: #EEE;
+      border: solid 1px #999;
+      border-radius: 5px;
+      padding: 5px;
+      margin-right: 20px;
+
+      display: inline-block;
+    }
+	
+	#quality-assurance {
+		color: #111;
+		left: 50%;
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	#quality-assurance #form input {
+		border: solid 1px #ccc;
+		border-radius: 2px;
+		font-family: 'Arial', sans-serif;
+		padding: 10px;
+	}
+
+	#quality-assurance #form input[type=text] {
+		width: 100%;
+	}
+
+	#quality-assurance #form input[type=submit] {
+		background-color: #FAFAFA;
+		color: #111;
+	}
+	
+	.hidden {
+		display: none;
+	}
+
+	.panel {
+		background-color: #fafafa;
+		border: solid 1px #ccc;
+		border-radius: 2px;
+		font-family: 'Arial', sans-serif;
+		padding: 30px;
+	}
+	
+	<!--
+	.djs-connection {
+		z-index: 1000;
+	}
+	-->
+  </style>
+
+  <!--
+    this is an example of how to use bpmn-js in a standalone application built with
+    CommonJS modules + browserify
+  -->
+
+  <title>BPMN Editor</title>
+</head>
+<body>
+
+  <div class="header">
+    <h1>BPMN Editor</h1>
+  </div>
+
+  <div id="canvas"></div>
+  
+  <div id="quality-assurance" class="panel hidden">
+    <form id="form">
+      <p>
+        <b>Enter a Task Type</b>
+      </p>
+      <br />
+	<!--	<input id="task-type" type="text" autocomplete="off" list="browsers"> -->
+		<select id="task-type">
+		<!--
+			<option value="Internet Explorer">
+			<option value="Firefox">
+			<option value="Chrome">
+			<option value="Opera">
+			<option value="Safari"> -->
+		</select>
+      <br />
+		<input id="okay" type="submit" value="Okay">
+    </form>
+  </div>
+
+  <div class="toolbar">
+    <div class="entry">
+		<a href title="download BPMN diagram" data-download download="pizza-collaboration-annotated.bpmn"><i class="material-icons">file_download</i></a>
+    </div>
+
+    <div class="entry">
+		<input type="file" data-open-file value="open">  
+		<i class='fas fa-file-upload' style='font-size:24px; color: green'></i> 
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
